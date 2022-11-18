@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KMIT</title>
+    <link rel="stylesheet" href="click.css" />
+  </head>
+  <body>
+    <p class="hello">Hello KMIT!</p>
+    <p id="txt"></p>
+    <button type="button" id="check-button" onclick="myFucntion()">
+      Check
+    </button>
+    <script>
+      document.getElementById("check-button").onclick = function () {
+        myFunction();
+      };
+      function myFunction() {
+        var x = document.createElement("br");
+        var y = document.createElement("br");
+        document.getElementById("txt").append(["NGIT"]);
+        document.getElementById("txt").append(y);
+        document.getElementById("txt").append(["NGIT"]);
+        document.getElementById("txt").append(x);
+      }
+    </script>
+  </body>
+</html>
