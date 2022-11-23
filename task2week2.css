@@ -1,0 +1,123 @@
+body {
+  background-color: black;
+}
+#vid {
+  position: absolute;
+  opacity: 0.5;
+  width: 100%;
+}
+nav {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.navbar-nav {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  margin-right: 20px;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  margin-left: 25px;
+}
+.nav-link {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: #2929cfc2;
+}
+.dropdown-item {
+  font-size: 18px;
+  transition: color 0.15s;
+}
+.dropdown-item:hover {
+  color: #2929cfc2;
+  background-color: transparent;
+}
+.h1 {
+  color: white;
+  font-size: 15px;
+  margin-left: 40px;
+  position: relative;
+  font-weight: 600;
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.h2 {
+  color: white;
+  margin-left: 40px;
+  position: relative;
+  font-weight: 700;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.h3 {
+  color: white;
+  font-size: 13px;
+  margin-left: 40px;
+  position: relative;
+  font-weight: 400;
+  width: 600px;
+}
+.red-button {
+  background-color: #af2f33;
+  border: none;
+  margin-left: 45px;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  font-size: 30px;
+  color: black;
+  padding: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 140px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 0;
+}
+.d-block {
+  width: 300px;
+}
+.card,
+.card-img {
+  border-radius: 20px;
+  height: 270px;
+  width: 350px;
+}
+.card-img-top {
+  margin-top: 20px;
+  height: 60px;
+  width: 60px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 25px 0px 15px;
+}
+.card-text {
+  font-size: 13px;
+  line-height: 25px;
+  margin: 0 20px;
+}
+.slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+}
