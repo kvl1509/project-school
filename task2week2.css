@@ -30,6 +30,9 @@ nav {
 .nav-link:hover {
   color: #2929cfc2;
 }
+.nav-link:focus{
+  color: lightblue;
+}
 .dropdown-item {
   font-size: 18px;
   transition: color 0.15s;
